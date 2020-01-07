@@ -17,10 +17,10 @@ const Header = (props: IProps) => {
                 <Navbar.Brand style={Styles.brand} href="#home">{tittle}</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                    <Nav>
+                    <Nav >
                         {
                             ROUTES.map((route: any, index: number) => (
-                                <Nav.Link href={route.path} key={index}>{route.menu}</Nav.Link>
+                                <Nav.Link style={Styles.nav} href={route.path} key={index}>{route.menu}</Nav.Link>
                             ))
                         }
                     </Nav>

@@ -5,6 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import Header from './components/header/header'
+import Footer from './components/footer/footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ROUTES from './router/routes'
 
@@ -25,6 +26,7 @@ const App: React.FC = () => {
             ))
           }
         </Switch>
+        <Footer/>
       </div>
     </Router >
   );

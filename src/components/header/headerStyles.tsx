@@ -1,14 +1,21 @@
+import colors from '../../constants/colores'
+
 const Styles = {
     container: {
-        background: "#fff",
+        background: colors.colorprimary1,
         padding: 0
     },
     brand: {
-        color: "#000",
-        fontSize: 20           
+        color: colors.colorprimary4,
+        fontSize: 30,
+        border:"3px solid " + colors.colorprimary4,
+        padding: 7
     },
     navbar: {
-        padding: 0
+        padding: 10,
+    },
+    nav:{
+        color: colors.colorprimary4
     }
 }
 
