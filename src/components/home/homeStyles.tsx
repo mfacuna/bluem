@@ -15,8 +15,6 @@ const styles = {
         color: colors.colorprimary1,
     },
     p:{
-        border:"3px solid " + colors.colorprimary2,
-        padding: 20
     }
 }
 

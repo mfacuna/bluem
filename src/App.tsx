@@ -15,7 +15,7 @@ const App: React.FC = () => {
     <Router>
       <div>
         <Header
-          tittle='BLUEM'
+          tittle='VETMAP'
         />
         <Switch>
           {

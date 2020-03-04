@@ -1,6 +1,5 @@
 import * as React from 'react';
 import styles from './homeStyles'
-import { Card } from 'react-bootstrap';
 
 interface IProps { }
 
@@ -17,17 +16,7 @@ export default (props: IProps) => {
 
                     </div>
                     <div className="col-sm">
-                        <Card>
-                            <Card.Img variant="top" src="../../assets/1.png" />
-                            <Card.Body>
-                                <Card.Title>
-                                    Card Title
-                            </Card.Title>
-                                <Card.Text>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo magni reprehenderit ipsa vel, ducimus eveniet sunt, dolorum iusto illo voluptatibus laudantium totam quaerat doloremque molestiae? Non nam doloremque maxime saepe.
-                            </Card.Text>
-                            </Card.Body>
-                        </Card>
+
                     </div>
                 </div>
             </div>
